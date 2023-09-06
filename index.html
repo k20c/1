@@ -46,8 +46,8 @@
             <img id="thumbs_up" src="k20c.github.io/1/1_thumbs_up.png" />
             <img id="timemachine" src="k20c.github.io/1/2_timemachine.gif" />
             <img id="dinowalk" src="k20c.github.io/1/3_dinowalk.gif" />
-            <video id="myVideo" src="k20c.github.io/1/4_dippy_cut_silent.mp4"></video>
-        <a-asset-item id="red_door" src="k20c.github.io/1/5_easter_foxy.glb"></a-asset-item>
+            <video id="dippy" src="k20c.github.io/1/4_dippy_cut_silent.mp4"></video>
+        <a-asset-item id="easter_foxy" src="k20c.github.io/1/5_easter_foxy.glb"></a-asset-item>
         <a-asset-item id="text"></a-asset-item>
       </a-assets>
 
@@ -56,13 +56,13 @@
         <a-gltf-model src="#red_full" rotation="90 0 0" position="0 -0.25 0" scale="0.007 0.007 0.007" animation-mixer>
       </a-entity>
             <a-entity mindar-image-target="targetIndex: 1">
-<a-gltf-model src="#red_door" rotation="90 0 0 " position="0 -0.25 0" scale="0.007 0.007 0.007" animation-mixer>
+<a-gltf-model src="#easter_foxy" rotation="90 0 0 " position="0 -0.25 0" scale="0.007 0.007 0.007" animation-mixer>
       </a-entity>
- <a-video id="#myVideo" position="0 0 0" height="1.252" width="0.552" rotation="0 0 0" preload autoplay loop></video>
+ <a-video id="#dippy" position="0 0 0" height="1.252" width="0.552" rotation="0 0 0" preload autoplay loop></video>
       <a-entity mindar-image-target="targetIndex: 2">
  <a-plane class="clickable" material="src: #myVideo; opacity: 0.9; transparent: true" video-controller></a-plane>
       </a-entity>
- <a-video id="#myVideo" position="0 0 0" height="1.252" width="0.552" rotation="0 0 0" preload autoplay loop></video>
+ <a-video id="#dippy" position="0 0 0" height="1.252" width="0.552" rotation="0 0 0" preload autoplay loop></video>
       <a-entity mindar-image-target="targetIndex: 3" id="target">|
 <a-plane class="clickable" material="src: #myVideo; opacity: 0.9; transparent: true" video-controller></a-plane>
       </a-entity>
