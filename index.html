@@ -43,9 +43,9 @@
 
     <a-scene mindar-image="imageTargetSrc: https://k20c.github.io/1/targets.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
       <a-assets>
-            <img id="pyzhyk_book" src="k20c.github.io/1/1_thumbs_up.png" />
-            <img id="pyzhyk_book" src="k20c.github.io/1/2_timemachine.gif" />
-            <img id="pyzhyk_book" src="k20c.github.io/1/3_dinowalk.gif" />
+            <img id="thumbs_up" src="k20c.github.io/1/1_thumbs_up.png" />
+            <img id="timemachine" src="k20c.github.io/1/2_timemachine.gif" />
+            <img id="dinowalk" src="k20c.github.io/1/3_dinowalk.gif" />
             <video id="myVideo" src="k20c.github.io/1/4_dippy_cut_silent.mp4"></video>
         <a-asset-item id="red_door" src="k20c.github.io/1/5_easter_foxy.glb"></a-asset-item>
         <a-asset-item id="text"></a-asset-item>
@@ -67,10 +67,10 @@
 <a-plane class="clickable" material="src: #myVideo; opacity: 0.9; transparent: true" video-controller></a-plane>
       </a-entity>
       <a-entity mindar-image-target="targetIndex: 4">
- <a-plane src="#333_door" position="0 0 0" height="0.552" width="0.552"rotation="0 0 0" transparent="true"></a-plane>
+ <a-plane src="#thumbs_up" position="0 0 0" height="0.552" width="0.552"rotation="0 0 0" transparent="true"></a-plane>
       </a-entity>
       <a-entity mindar-image-target="targetIndex: 5">
-<a-plane src="#pyzhyk_book" position="0 0 0" height="0.552" width="0.552" rotation="0 0 0" transparent="true"></a-plane>
+<a-plane src="#timemachine" position="0 0 0" height="0.552" width="0.552" rotation="0 0 0" transparent="true"></a-plane>
       </a-entity>
     </a-scene>
   </body>
