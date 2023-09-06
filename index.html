@@ -44,7 +44,7 @@
     <a-scene mindar-image="imageTargetSrc: https://k20c.github.io/1/targets.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
       <a-assets>
             <img id="thumbs_up" src="https://k20c.github.io/1/1_thumbs_up.png" />
-           <!--  <img id="timemachine" src="https://k20c.github.io/1/2_timemachine.gif" /> -->
+          <video id="timemachine" src="https://k20c.github.io/1/2_timemachine.mp4" />
             <img id="dinowalk" src="https://k20c.github.io/1/3_dinowalk.gif" />
             <video id="dippy" src="https://k20c.github.io/1/4_dippy_crop.mp4"></video>
         <a-asset-item id="easter_foxy" src="https://k20c.github.io/1/5_easter_foxy.glb"></a-asset-item>
@@ -56,7 +56,7 @@
 <a-plane src="#thumbs_up" position="0 0 0" height="1.101" width="1.101" rotation="0 0 0" transparent="true"></a-plane>
       </a-entity>
             <a-entity mindar-image-target="targetIndex: 1">
- <a-plane src="#thumbs_up" position="0 0 0" height="1.101" width="1.101" rotation="0 0 0" transparent="true"></a-plane>
+ <a-video id="#timemachine" position="0 0 0" height="1.101" width="1.101" rotation="0 0 0" preload autoplay loop></video>
       </a-entity>
  <a-plane src="#thumbs_up" position="0 0 0" height="1.101" width="1.101" rotation="0 0 0" transparent="true"></a-plane>
       <a-entity mindar-image-target="targetIndex: 2">
