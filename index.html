@@ -13,7 +13,7 @@
       <a-assets>
             <img id="thumbs_up" src="https://k20c.github.io/1/1_thumbs_up.png" />
             <img id="timemachine" src="https://k20c.github.io/1/2_timemachine.gif" />
-<video id="myVideo" src="https://k20c.github.io/1/2_timemachine.mp4"  type="video/mp4" loop="true" autoplay  playsinline webkit-playsinline crossorigin="anonymous" muted="true"></video>
+<video id="myVideo" src="https://k20c.github.io/1/2_timemachine.mp4"  type="video/mp4" loop="true" playsinline autoplay></video>
             <img id="dinowalk" src="https://k20c.github.io/1/3_dinowalk.gif" />
         <a-asset-item id="easter_foxy" src="https://k20c.github.io/1/5_easter_foxy.glb"></a-asset-item>
         <a-asset-item id="text"></a-asset-item>
@@ -34,7 +34,7 @@
 <a-video id="#dippy" position="0 0 0" height="1.101" width="1.101" rotation="0 0 0" preload autoplay loop></video>
       </a-entity>
 <a-entity mindar-image-target="targetIndex: 4">
-      <a-video shader="chromakey" color="0.1 0.9 0.2" src="#myVideo" width="0.552" height="0.552" position="0 0 0" preload autoplay loop></a-video>
+      <a-plane src="#myVideo" position="0 0 0" width="0.552" height="0.552" position="0 0 0"></a-plane>
       </a-entity>
       <a-entity mindar-image-target="targetIndex: 5">
 <a-gltf-model src="#easter_foxy" rotation="90 0 0 " position="0 -0.25 0" scale="1.01 1.01 1.01" animation-mixer>
