@@ -10,22 +10,9 @@
     <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.2/dist/mindar-image-aframe.prod.js"></script>
 <script src="https://unpkg.com/aframe-chromakey-material/dist/aframe-chromakey-material.min.js"></script>
   </head>
- <script>
-        AFRAME.registerComponent("video-controller", {
-            init: function () {
-                const btn = document.querySelector("button");
-
-                btn.addEventListener("click", event => {
-                    console.log("btn click");
-                    if (this.found)
-                      window.open("https://google.com", "_blank");
-                });
-            }
-        })
-    </script>
 
  <div style="position: fixed; top: 10px; width: 100%; text-align: center; z-index: 1; color: grey">
-        <button>Натисніть</button>, якщо портрет не рухався 😉
+        <button class="btn btn-success" onclick=" window.open('https://google.com','_blank')"> Google</button>Натисніть</button>, якщо портрет не рухав 😉
     </div>
   <body>
 
